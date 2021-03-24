@@ -1,22 +1,22 @@
 import { ApiResponse } from "apisauce"
 import { Api } from "./api"
-import { GetCharactersResult } from "./api.types"
+import { GetPlayersResult } from "./api.types"
 import { getGeneralApiProblem } from "./api-problem"
 
 const API_PAGE_SIZE = 50
 
-export class CharacterApi {
+export class PlayerApi {
   private api: Api
 
   constructor(api: Api) {
     this.api = api
   }
 
-  async getCharacters(): Promise<GetCharactersResult> {
+  async getPlayers(): Promise<GetPlayersResult> {
     try {
       // make the api call
       const response: ApiResponse<any> = await this.api.apisauce.get(
-        "https://raw.githubusercontent.com/infinitered/ignite/master/data/rick-and-morty.json",
+        "https://raw.githubusercontent.com/alexnoob/BasketBall-GM-Rosters/master/2020-21.NBA.Roster.json",
         { amount: API_PAGE_SIZE },
       )
 
@@ -26,9 +26,9 @@ export class CharacterApi {
         if (problem) return problem
       }
 
-      const characters = response.data.results
+      const players = response.data.players
 
-      return { kind: "ok", characters }
+      return { kind: "ok", players }
     } catch (e) {
       __DEV__ && console.tron.log(e.message)
       return { kind: "bad-data" }

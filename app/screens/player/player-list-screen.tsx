@@ -41,27 +41,27 @@ const FLAT_LIST: ViewStyle = {
   paddingHorizontal: spacing[4],
 }
 
-export const DemoListScreen = observer(function DemoListScreen() {
+export const PlayerListScreen = observer(function PlayerListScreen() {
   const navigation = useNavigation()
   const goBack = () => navigation.goBack()
 
-  const { characterStore } = useStores()
-  const { characters } = characterStore
+  const { playerStore } = useStores()
+  const { players } = playerStore
 
   useEffect(() => {
     async function fetchData() {
-      await characterStore.getCharacters()
+      await playerStore.getPlayers()
     }
 
     fetchData()
   }, [])
 
   return (
-    <View testID="DemoListScreen" style={FULL}>
+    <View testID="PlayerListScreen" style={FULL}>
       <Wallpaper />
       <Screen style={CONTAINER} preset="fixed" backgroundColor={color.transparent}>
         <Header
-          headerTx="demoListScreen.title"
+          headerTx="playerListScreen.title"
           leftIcon="back"
           onLeftPress={goBack}
           style={HEADER}
@@ -69,14 +69,12 @@ export const DemoListScreen = observer(function DemoListScreen() {
         />
         <FlatList
           contentContainerStyle={FLAT_LIST}
-          data={characters}
-          keyExtractor={(item) => String(item.id)}
+          data={players}
+          keyExtractor={(item) => String(item.name)}
           renderItem={({ item }) => (
             <View style={LIST_CONTAINER}>
-              <Image source={{ uri: item.image }} style={IMAGE} />
-              <Text style={LIST_TEXT}>
-                {item.name} ({item.status})
-              </Text>
+              <Image source={{ uri: item.imgURL }} style={IMAGE} />
+              <Text style={LIST_TEXT}>{item.name}</Text>
             </View>
           )}
         />

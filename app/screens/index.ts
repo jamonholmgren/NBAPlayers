@@ -1,4 +1,3 @@
 export * from "./welcome/welcome-screen"
-export * from "./demo/demo-screen"
-export * from "./demo/demo-list-screen"
+export * from "./player/player-list-screen"
 // export other screens here

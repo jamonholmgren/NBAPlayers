@@ -1,7 +1,7 @@
-import { CharacterModel } from "./character"
+import { PlayerModel } from "./player"
 
 test("can be created", () => {
-  const instance = CharacterModel.create({
+  const instance = PlayerModel.create({
     id: 1,
     name: "Rick Sanchez",
   })
