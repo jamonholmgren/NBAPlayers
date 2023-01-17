@@ -1,0 +1,136 @@
+{
+  "schedule": [
+    {
+      "date": "2022-10-19",
+      "time": "7:00pm",
+      "location": "Sacramento",
+      "opponent": "Sacramento Kings"
+    },
+    {
+      "date": "2022-10-21",
+      "time": "7:00pm",
+      "location": "Portland",
+      "opponent": "Phoenix Suns"
+    },
+    {
+      "date": "2022-10-23",
+      "time": "7:00pm",
+      "location": "Los Angeles",
+      "opponent": "Los Angeles Lakers"
+    },
+    {
+      "date": "2022-10-24",
+      "time": "7:00pm",
+      "location": "Portland",
+      "opponent": "Denver Nuggets"
+    },
+    {
+      "date": "2022-10-26",
+      "time": "7:00pm",
+      "location": "Portland",
+      "opponent": "Miami Heat"
+    },
+    {
+      "date": "2022-10-28",
+      "time": "7:00pm",
+      "location": "Portland",
+      "opponent": "Houston Rockets"
+    },
+    {
+      "date": "2022-11-02",
+      "time": "7:00pm",
+      "location": "Portland",
+      "opponent": "Memphis Grizzlies"
+    },
+    {
+      "date": "2022-11-04",
+      "time": "7:00pm",
+      "location": "Phoenix",
+      "opponent": "Phoenix Suns"
+    },
+    {
+      "date": "2022-11-05",
+      "time": "7:00pm",
+      "location": "Phoenix",
+      "opponent": "Phoenix Suns"
+    },
+    {
+      "date": "2022-11-07",
+      "time": "7:00pm",
+      "location": "Miami",
+      "opponent": "Miami Heat"
+    },
+    {
+      "date": "2022-11-09",
+      "time": "7:00pm",
+      "location": "Charlotte",
+      "opponent": "Charlotte Hornets"
+    },
+    {
+      "date": "2022-11-10",
+      "time": "7:00pm",
+      "location": "New Orleans",
+      "opponent": "New Orleans Pelicans"
+    },
+    {
+      "date": "2022-11-12",
+      "time": "7:00pm",
+      "location": "Dallas",
+      "opponent": "Dallas Mavericks"
+    },
+    {
+      "date": "2022-11-15",
+      "time": "7:00pm",
+      "location": "Portland",
+      "opponent": "San Antonio Spurs"
+    },
+    {
+      "date": "2022-11-17",
+      "time": "7:00pm",
+      "location": "Portland",
+      "opponent": "Brooklyn Nets"
+    },
+    {
+      "date": "2022-11-19",
+      "time": "7:00pm",
+      "location": "Portland",
+      "opponent": "Utah Jazz"
+    },
+    {
+      "date": "2022-11-21",
+      "time": "7:00pm",
+      "location": "Milwaukee",
+      "opponent": "Milwaukee Bucks"
+    },
+    {
+      "date": "2022-11-23",
+      "time": "7:00pm",
+      "location": "Cleveland",
+      "opponent": "Cleveland Cavaliers"
+    },
+    {
+      "date": "2022-11-25",
+      "time": "7:00pm",
+      "location": "New York",
+      "opponent": "New York Knicks"
+    },
+    {
+      "date": "2022-11-27",
+      "time": "7:00pm",
+      "location": "Brooklyn",
+      "opponent": "Brooklyn Nets"
+    },
+    {
+      "date": "2022-11-29",
+      "time": "7:00pm",
+      "location": "Portland",
+      "opponent": "LA Clippers"
+    },
+    {
+      "date": "2022-11-30",
+      "time": "7:00pm",
+      "location": "Los Angeles",
+      "opponent": "Los Angeles Lakers"
+    }
+  ]
+}
